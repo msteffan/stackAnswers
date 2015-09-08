@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StackAnswers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>StackAnswers</h1>
+    <!-- <p>Got a web development question? StackExchange has the answers. Enter your search query below, then hit 'Search'.</p> -->
+    <form>
+        <label for="searchTerm"></label>
+        <input id="searchTerm" name="searchTerm" type="text"></input>
+        <input id="searchNow" type="submit" value="search">
+    </form>
+    <div id="questions">
+        <h3>Most Recent Questions</h3>
+    </div>
+    <!-- <input type='submit' class='getMore' value='get more'></input> -->
+
+    <div class="answerBox" id="Answers">
+        <h3>Answers to This Question</h3>
+        <div id="answerHeader"></div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
